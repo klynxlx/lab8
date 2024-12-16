@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+
+.gallery__link {
+    display: block;
+    text-decoration: none;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* відступи між зображеннями */
+    justify-content: center;
+    list-style: none; /* видаляє маркери списку */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gallery__item {
+    flex: 0 1 calc(33.333% - 20px); /* Задає ширину для кожного зображення */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь для картки */
+    border-radius: 8px;
+    overflow: hidden; /* Обрізає зайві частини */
+  }
+  
+  .gallery__image {
+    display: block;
+    width: 100%; /* Заповнює ширину контейнера */
+    height: 100%; /* Заповнює висоту контейнера */
+    object-fit: cover; /* Масштабує зображення без спотворення */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery__image:hover {
+    transform: scale(1.05); /* Анімація при наведенні */
+  }
+  .feedback-button {
+    position: fixed; /* Фіксована позиція */
+    top: 20px; /* Відступ зверху */
+    right: 20px; /* Відступ справа */
+    background-color: #ff5722; /* Колір фону */
+    color: #fff; /* Колір тексту */
+    text-decoration: none; /* Видаляє підкреслення */
+    font-size: 16px; /* Розмір шрифту */
+    font-weight: bold; /* Товстий шрифт */
+    padding: 10px 20px; /* Внутрішні відступи */
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь кнопки */
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000; /* Щоб кнопка була поверх інших елементів */
+  }
+  
+  .feedback-button:hover {
+    background-color: #e64a19; /* Темніший колір при наведенні */
+  }
+  
