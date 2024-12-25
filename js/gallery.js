@@ -17,27 +17,27 @@ const images = [
     {
         preview: 'images/4.jpg',
         original: 'images/4.jpg',
-        description: 'Опис зображення 3',
+        description: 'Опис зображення 4',
       },
      {
         preview: 'images/5.jpg',
         original: 'images/5.jpg',
-        description: 'Опис зображення 3',
+        description: 'Опис зображення 5',
       },
       {
         preview: 'images/6.jpg',
         original: 'images/6.jpg',
-        description: 'Опис зображення 3',
+        description: 'Опис зображення 6',
       },
       {
         preview: 'images/7.jpg',
         original: 'images/7.jpg',
-        description: 'Опис зображення 3',
+        description: 'Опис зображення 7',
       },
       {
         preview: 'images/8.jpg',
         original: 'images/8.jpg',
-        description: 'Опис зображення 3',
+        description: 'Опис зображення 8',
       },  
   ];
   
